@@ -1,3 +1,5 @@
+package Chapter01;
+
 public class Bag {
     private Long amount;
     private Invitation invitation;

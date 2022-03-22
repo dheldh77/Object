@@ -1,3 +1,5 @@
+package Chapter01;
+
 public class Theater {
     private TicketSeller ticketSeller;
 
