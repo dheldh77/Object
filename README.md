@@ -6,7 +6,7 @@
 
 ## :pushpin: 2. Index
 - [x] [들어가며 : 프로그래밍 패러다임](https://github.com/dheldh77/Object/blob/master/intro/intro.md)
-- [ ] [01. 객체, 설계](https://github.com/dheldh77/Object/blob/master/chapter01/chapter01.md)
+- [x] [01. 객체, 설계](https://github.com/dheldh77/Object/blob/master/chapter01/chapter01.md)
 - [ ] 02. 객체지향 프로그래밍
 - [ ] 03. 역할, 책임, 협력
 - [ ] 04. 설계 품질과 트레이드오프
