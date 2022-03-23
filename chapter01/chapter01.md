@@ -195,7 +195,7 @@ public class Theater {
 - 만약 초대장이 들어 있다면 이벤트에 당첨된 관람객이므로 판매원에게서 받은 티켓을 관람객의 가방 안에 넣어준다.
 - 가방 안에 초대장이 없다면 관람객의 가방에서 티켓 금액만큼을 차감한 후 매표소에 금액을 증가시키고, 관람객의 가방 안에 티켓을 넣어준다.
 
-![스크린샷 2022-03-23 오후 12.04.26.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5cb59327-f68b-4388-be71-4b8c6cee37fd/스크린샷_2022-03-23_오후_12.04.26.png)
+![](https://github.com/dheldh77/study_Object/blob/master/chapter01/classDiagram.png)
 
 ## 2) 무엇이 문제인가?
 
@@ -356,7 +356,7 @@ public class TicketSeller {
 - TicketSeller가 Audience의 인터페이스에만 의존하도록 수정했다.
 - 수정 결과 TicketSeller와 Audience 사이의 결합도는 낮아지고, 각 코드의 수정이 서로에게 영향을 끼치지 않는다.
 
-![스크린샷 2022-03-23 오후 3.22.27.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/16dd4f2b-703f-4d55-a6d2-1a8a6b014810/스크린샷_2022-03-23_오후_3.22.27.png)
+![](https://github.com/dheldh77/study_Object/blob/master/chapter01/classDiagram2.png)
 
 - 재설계 결과로 Theater 클래스의 TicketOffice, Ticket, Bag의 의존은 제거되었다.
 - 하지만, TicketSeller에서 Ticket으로의 의존이 생겼다.
@@ -556,11 +556,11 @@ public class TicketSeller {
 - 재설계를 통해 TicketSeller가 인터페이스에만 의존해서 TicketOffice에 접근하고 있다.
 - 하지만 이로인해 존재하지 않았던 의존성이 추가되었다.
 
-![변경 전](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f52a5409-d458-4328-b1f5-96d056158f19/스크린샷_2022-03-23_오후_11.28.56.png)
+![변경 전](https://github.com/dheldh77/study_Object/blob/master/chapter01/classDiagram3.png)
 
 변경 전
 
-![변경 후](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7af468b-1910-4339-a3ab-ad20afca1615/스크린샷_2022-03-23_오후_11.30.46.png)
+![변경 후](https://github.com/dheldh77/study_Object/blob/master/chapter01/classDiagram4.png)
 
 변경 후
 
